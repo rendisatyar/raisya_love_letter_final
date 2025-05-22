@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untuk Raisya</title>
+    <style>
+        body {
+            background-color: #ffe6f0;
+            font-family: 'Segoe UI', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #d63384;
+            text-align: center;
+        }
+        p {
+            line-height: 1.8;
+            white-space: pre-line;
+        }
+        .photos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .photos img {
+            width: 150px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 12px 24px;
+            font-size: 16px;
+            background-color: #ff6699;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Untuk Raisya</h1>
+        <p>yang pernah aku lukai namun tak pernah benar-benar aku lupakan,
+
+Aku menulis ini dalam keheningan malam, ketika pikiranku penuh dengan kenangan tentangmu—tentang kita. Mungkin kamu sudah lama tak ingin lagi mengingatnya, tapi bagiku, setiap momen bersamamu adalah bagian dari hidup yang tak bisa begitu saja aku hapus, meski aku tahu akulah alasan kenapa semua itu hanya tinggal kenangan.
+
+Raisya, aku tahu aku telah mengecewakanmu. Aku tahu ada luka yang pernah aku torehkan di hatimu. Dan untuk itu, tidak ada kata maaf yang cukup besar untuk menghapus rasa sakit yang mungkin masih kamu simpan hingga hari ini. Tapi izinkan aku untuk tetap mencoba, karena diam saja hanya membuat penyesalan ini tumbuh semakin dalam.
+
+Aku sering memutar ulang semua kesalahan yang aku perbuat. Aku bertanya pada diri sendiri, “Kenapa aku bisa sebodoh itu menyia-nyiakan seseorang seperti kamu?” Kamu, yang selalu sabar dengan sikapku. Kamu, yang masih bertahan walau aku seringkali terlalu keras kepala untuk mendengarkan. Dan kamu, yang masih mau peduli, bahkan ketika aku mulai berubah jadi seseorang yang tak layak untuk dicintai.
+
+Aku tahu aku gagal menjadi orang yang bisa kamu andalkan. Aku terlalu sibuk dengan egoku sendiri, sampai lupa kalau kamu hanya ingin dipahami. Aku salah karena terlalu sering membuatmu menangis, padahal kamu hanya ingin dicintai. Dan kesalahan terbesarku adalah, membiarkanmu pergi tanpa benar-benar berjuang mempertahankanmu.
+
+Raisya, sejak kamu pergi, hidupku tidak lagi sama. Banyak hal yang terasa hampa, meski orang-orang di sekitarku tak menyadari. Aku tersenyum, tapi kosong. Aku tertawa, tapi hambar. Karena satu-satunya yang bisa membuat hidupku terasa penuh telah aku sakiti, dan kini menjauh.
+
+Setiap malam, aku berbicara pada diriku sendiri—atau mungkin pada semesta—bertanya, apakah kamu masih mengingatku? Apakah di sudut hatimu, masih ada sedikit ruang yang belum sepenuhnya tertutup untukku?
+
+Aku tidak datang membawa janji-janji manis. Aku tahu, kamu sudah cukup lelah dengan janji. Tapi aku datang membawa satu hal yang mungkin bisa memberiku kesempatan: kesungguhan. Aku ingin memperbaiki semua yang dulu aku rusak. Bukan karena aku takut kehilangan, tapi karena aku sadar… aku pernah memilikimu, seseorang yang begitu tulus, dan aku bodoh telah menyakitimu.
+
+Jika kamu masih menyimpan luka, biarkan aku menunggu sampai waktunya kamu siap. Kalau kamu masih ragu, biarkan aku meyakinkanmu—bukan dengan kata-kata, tapi dengan waktu, dengan sikap, dan dengan kasih yang tak akan lagi berubah jadi luka.
+
+Aku tidak tahu apa masa depan akan mempertemukan kita lagi sebagai dua orang yang saling mencintai, atau hanya sebagai dua nama yang pernah punya cerita. Tapi jika hari itu datang, aku ingin kamu tahu: cintaku padamu belum padam. Ia tetap hidup, meski dalam diam.
+
+Terima kasih karena pernah hadir, pernah mencinta, dan pernah memberi warna yang indah dalam hidupku. Dan jika semesta mengizinkan, aku berharap kamu pun bisa melihat bahwa aku bukan lagi aku yang dulu—bahwa aku telah belajar, dan ingin mencintaimu dengan cara yang benar.
+
+Selalu menunggumu,
+Rendy🥰😊❤️</p>
+        <div class="photos">
+            <img src="photo1.jpeg" alt="photo1">
+            <img src="photo2.jpeg" alt="photo2">
+            <img src="photo3.jpeg" alt="photo3">
+            <img src="photo4.jpeg" alt="photo4">
+            <img src="photo5.jpeg" alt="photo5">
+        </div>
+        <button onclick="unmuteAudio()">Putar Lagu 🎵</button>
+    </div>
+    <audio id="bg-music" autoplay loop muted>
+        <source src="videoplayback.m4a" type="audio/mp4">
+        Browser kamu tidak mendukung pemutar audio.
+    </audio>
+    <script>
+        function unmuteAudio() {
+            var audio = document.getElementById("bg-music");
+            audio.muted = false;
+            audio.play();
+        }
+    </script>
+</body>
+</html>
